@@ -1,6 +1,10 @@
+--    If the number is a divisible of 3, you need to print "Fizz" instead of that number.
+--    If the number is a divisible of 5, you need to print "Buzz" instead of that number.
+--    If the number is a divisible of both 3 and 5, you need to print "FizzBuzz" instead of that number.
+
 module Main where
 
-main :: IO()
+main :: IO ()
 main = putStrLn "\
 \1\n\
 \2\n\
@@ -102,36 +106,6 @@ main = putStrLn "\
 \98\n\
 \Fizz\n\
 \Buzz"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
