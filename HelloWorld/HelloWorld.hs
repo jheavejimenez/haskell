@@ -1,4 +1,4 @@
-module HelloWorld (hello) where
+module Main where
 
 hello :: String
 hello = "Hello, World!"
