@@ -9,4 +9,8 @@ isLeapYear year
   where isDivisibleBy d = year `mod` d == 0
 
 main :: IO ()
-main 
+main = do
+  print $ isLeapYear 2000
+  print $ isLeapYear 1900
+  print $ isLeapYear 2100
+  
