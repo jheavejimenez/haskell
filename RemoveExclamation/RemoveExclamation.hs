@@ -8,4 +8,4 @@
 module RemoveExclamationMarks where
 
 removeExclamationMarks :: String -> String
-removeExclamationMarks str = [ x | x <- str, x `notElem` "'!'" ]
+removeExclamationMarks str = [ x | x <- str, x `notElem` "!" ]
