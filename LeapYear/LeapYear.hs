@@ -13,4 +13,3 @@ main = do
   print $ isLeapYear 2000
   print $ isLeapYear 1900
   print $ isLeapYear 2100
-  
