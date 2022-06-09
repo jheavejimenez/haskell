@@ -4,5 +4,5 @@ module Kata where
 
 --If the input is an empty array or is null, return an empty array.
 
-countPositivesSumNegatives :: Maybe [Int] -> [Int]
+countPositivesSumNegatives ::[Int] -> [Int]
 countPositivesSumNegatives xs = [length [x | x <- xs, x > 0], sum [x | x <- xs, x < 0]]
