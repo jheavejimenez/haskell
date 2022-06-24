@@ -3,4 +3,6 @@
 
   doubleChar :: [Char] -> [Char]
   doubleChar = concatMap (replicate 2)
-  
+
+
+ 
