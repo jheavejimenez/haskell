@@ -11,7 +11,7 @@ evenOrOddRecursive 1 = "Odd" -- base case
 evenOrOddRecursive n = evenOrOddRecursive (n `mod` 2) -- recursive call
 
 -- Gaurds solution
-evenOrOddGaurd :: Integral a => a -> [Char]
-evenOrOddGaurd n
+evenOrOddGuard :: Integral a => a -> [Char]
+evenOrOddGuard n
     | even n = "Even"
     | otherwise = "Odd"
